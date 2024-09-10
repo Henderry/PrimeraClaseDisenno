@@ -1,0 +1,91 @@
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 30px;
+  line-height: 1;
+  padding: 0 60px 60px 0;
+  letter-spacing: 0.5px;
+}
+
+p,
+input,
+li {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #dac5c5;
+}
+
+html {
+  background-color: #153d63;
+}
+
+body {
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 9px solid black;
+  background-image: url('1920-x-1080-nature-desktop-zt65xx09vu42vnfu.jpg');
+  background-size: cover;
+}
+
+nav {
+  height: 20px;
+  display: block;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+main {
+  display: flex;
+}
+
+.button {
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px 400px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.button:active {
+  background-color: #004080;
+  transform: scale(0.95);
+}
+
+.button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+#Categorias {
+  margin: 10px 400px;
+}
+
+#Persona {
+  margin: 10px 400px;
+}
